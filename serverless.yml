@@ -4,9 +4,12 @@ provider:
   runtime: nodejs16.x
   region: eu-west-1
 
+plugins:
+  - serverless-offline
+
 functions:
   imageResizeHTTP:
-    handler: resizeImage.handler
+    handler: handler.resize
     events:
       - http:
           path: resizeImage
