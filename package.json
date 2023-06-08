@@ -1,0 +1,9 @@
+{
+	"name": "bcncgroup-image-lambda",
+	"version": "1.0.0",
+	"author": "AlbCastillo <alberto.castillo@beoneoff.com>",
+	"license": "MIT",
+	"dependencies": {
+		"sharp": "^0.32.1"
+	}
+}
